@@ -3,8 +3,9 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Zdjęcia Inwestycje — Polityka Prywatności</title>
-  <meta name="description" content="Aplikacja Android do zarządzania dokumentacją zdjęciową projektów w budownictwie i innych branżach.">
+  <title>Zdjęcia Inwestycje — Aplikacja Android</title>
+  <meta name="description" content="Zdjęcia Inwestycje — aplikacja Android do zarządzania dokumentacją zdjęciową projektów budowlanych. Polityka prywatności i opis funkcji.">
+
   <style>
     body {
       font-family: system-ui, -apple-system, Segoe UI, Roboto, 'Helvetica Neue', Arial;
@@ -12,6 +13,7 @@
       padding: 0;
       background: #0f172a;
       color: #e6eef8;
+      line-height: 1.6;
     }
     .wrap {
       max-width: 900px;
@@ -22,6 +24,8 @@
       box-shadow: 0 6px 18px rgba(2,6,23,.6);
     }
     h1, h2, h3 { color: #fff; }
+    ul { margin-left: 20px; }
+    li { margin: 6px 0; }
     a.button {
       display: inline-block;
       margin-top: 12px;
@@ -31,10 +35,56 @@
       border-radius: 8px;
       text-decoration: none;
     }
-    a.button:hover { background: #1e40af; }
-    ul { line-height: 1.6; }
+    a.button:hover {
+      background: #1e40af;
+    }
     footer {
-      margin-top: 28px;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #9fb0d6;
+      border-top: 1px solid #1e293b;
+      padding-top: 20px;
+    }
+    code {
+      background: #071025;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <h1>📸 Zdjęcia Inwestycje</h1>
+    <p><strong>Zdjęcia Inwestycje</strong> to aplikacja Android do zarządzania dokumentacją zdjęciową projektów budowlanych. 
+    Umożliwia tworzenie folderów inwestycji, robienie zdjęć, dodawanie plików i synchronizację z Dyskiem Google.</p>
+
+    <h2>✨ Główne funkcje aplikacji</h2>
+    <ul>
+      <li>Tworzenie i edycja projektów (folderów inwestycji)</li>
+      <li>Automatyczna struktura folderów: <code>Projekt</code>, <code>Pomiary</code>, <code>Mufy</code>, <code>Studnie</code>, <code>Słupy</code>, <code>Udrażnianie</code></li>
+      <li>Dodawanie zdjęć z aparatu lub galerii</li>
+      <li>Wyświetlanie listy zdjęć z miniaturkami</li>
+      <li>Dodawanie plików PDF i innych dokumentów do folderów</li>
+      <li>Obsługa podfolderów OPP/OSD/ZS w sekcji <code>Mufy</code></li>
+      <li>Kolorowanie projektów wg statusu (zielony / żółty / czerwony)</li>
+      <li>Automatyczne wykrywanie zmian w strukturze folderów (również tych dodanych ręcznie przez menedżer plików)</li>
+      <li>Integracja z Dyskiem Google — logowanie, synchronizacja folderów i plików</li>
+      <li>Tryb offline + tryb „Pokaż pliki z chmury” (on/off)</li>
+    </ul>
+
+    <h2>📄 Polityka prywatności</h2>
+    <p>Polityka prywatności dostępna w dwóch wersjach: <strong>Polska</strong> i <strong>English</strong>.</p>
+    <p><a class="button" href="PRIVACY_POLICY.md">Polityka prywatności (PL / EN)</a></p>
+
+    <footer>
+      <p>Autor: <strong>Marcin Mikulec</strong> • E-mail: <a href="mailto:mpktechdev@gmail.com">mpktechdev@gmail.com</a></p>
+      <p>Repozytorium: <a href="https://github.com/mpktechdev/zdjecia-inwestycje" target="_blank">github.com/mpktechdev/zdjecia-inwestycje</a></p>
+      <p>Wersja: 2025 • Strona hostowana na GitHub Pages</p>
+    </footer>
+  </main>
+</body>
+</html>      margin-top: 28px;
       font-size: 0.9rem;
       color: #9fb0d6;
     }
